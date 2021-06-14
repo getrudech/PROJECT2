@@ -7,21 +7,7 @@
     padding: large;
     color: white;
 }
-.btn{
-    padding: 10px 35px;
-    background-color: transparent;
-    border: 1px solid white;
-    outline: none;
-    transition: .6s ease;
-    color: white;
-}
-.btn:hover{
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 5px white;
-    font-weight: bold;
-}
+
 .titlebtn{
     align-content: center;
     justify-content: center;
@@ -32,7 +18,7 @@
     height: 840px;
     justify-content: center;
     
-    color: black;
+    color: gold;
   
   }
   .container-bunner::before{
@@ -40,8 +26,8 @@
     position: absolute;
     top: 0;
     right: 0;
-    background: url("../IMAGES/istockphoto-472854554-612x612.jpg") no-repeat center center/cover;
-    height: 900px;
+    background: url("../IMAGES/LIKE.jpg") no-repeat center center/cover;
+    height: 700px;
     width: 100%;
     z-index: -1;
   }
@@ -57,17 +43,18 @@
   }
   .btn{
     padding: 10px 35px;
-    background-color: white;
+    background-color: yellow;
     border: 1px solid black;
     outline: none;
     transition: .6s ease;
     color: black;
+    text-decoration: none;
   }
   .btn:hover{
     cursor: pointer;
-    background-color: yellow;
+    background-color: white;
     color: black;
-    box-shadow: 0 0 5px rgb(17, 17, 17);
+    
     font-weight: bold;
   }
   .headings{
